@@ -27,7 +27,7 @@ body {
 .top-logo {
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 50px;
     padding-top: 100px;
 }
 
@@ -43,7 +43,7 @@ body {
     background-color: #1c2026;
     width: 400px;
     border-radius: 8px;
-    min-height: 500px; /* Adjust the minimum height */
+    min-height: 55lkjhg  0%0px; /* Adjust the minimum height */
     margin-bottom: 20px; /* Add margin to create space for the footer */
     
 }
@@ -71,12 +71,13 @@ body {
     gap: 10px;
     flex-direction: column;
 }
-
-footer {
-    text-align: center;
-    color: white;
-    margin-top: 20px;
-    padding: 10px;
+.continue-button{
+    background-color:#77797d ;
+    color:rgb(15, 15, 15)
+}
+.continue-button:hover{
+    background-color:#77797d;
+    cursor: pointer;
 }
 
 #emailBox{
@@ -89,14 +90,12 @@ footer {
     position: relative;
     margin: 20px 0;
     width: 300px;
-    padding-top: 10px;
     padding-bottom: 20px;
     
 }
 
 input[type="email"] {
     width: 100%;
-    padding: 5px;
     margin-bottom: 10px;
     background: none;
     border: none;
@@ -107,9 +106,6 @@ input[type="email"] {
     font-family: 'Arial', sans-serif;
 }
 
-input[type="email"]::placeholder {
-    color: #ccc; /* Placeholder text color */
-}
 
 .underline {
     position: absolute;
