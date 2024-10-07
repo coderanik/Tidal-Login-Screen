@@ -21,7 +21,7 @@ body {
 
 .logo {
     width: 150px; /* Adjust this value to increase or decrease the logo size */
-    height: auto;  /* Maintain aspect ratio */
+    margin-top: 50px;
 }
 
 .top-logo {
@@ -43,7 +43,7 @@ body {
     background-color: #1c2026;
     width: 400px;
     border-radius: 8px;
-    min-height: 55lkjhg  0%0px; /* Adjust the minimum height */
+    min-height: 550px; /* Adjust the minimum height */
     margin-bottom: 20px; /* Add margin to create space for the footer */
     
 }
@@ -51,6 +51,7 @@ body {
 .box {
     padding: 50px;
     color: white;
+    padding-top: 40px;
 }
 
 .buttonbox {
