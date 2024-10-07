@@ -3,10 +3,10 @@ const emailInput = document.getElementById('emailBox');
 const continueButton = document.querySelector('.continue-button');
 const languageButton = document.querySelector('.language-btn');
 
-// Add event listener to continue button
+// Event listener to continue button
 continueButton.addEventListener('click', validateEmail);
 
-// Add event listener to language button
+// Event listener to language button
 languageButton.addEventListener('click', changeLanguage);
 
 // Function to validate email input
