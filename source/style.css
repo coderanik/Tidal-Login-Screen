@@ -22,6 +22,8 @@ body {
     font-style: normal;
 }
 
+/** Logo Modification **/
+
 .logo {
     width: 150px; /* Adjust this value to increase or decrease the logo size */
     margin-top: 50px;
@@ -34,11 +36,15 @@ body {
     padding-top: 100px;
 }
 
+/* Sub Heading Modifications */
+
 .sub-heading {
     text-align: center;
     color: white;
     padding: 25px;
 }
+
+/** Card Placements **/
 
 .outerbox {
     display: flex;
@@ -56,6 +62,8 @@ body {
     color: white;
     padding-top: 40px;
 }
+
+/** Button Modifications code **/ 
 
 .buttonbox {
     text-align: center;
@@ -83,6 +91,8 @@ body {
     background-color:#77797d;
     cursor: pointer;
 }
+
+/** Modifications for email input **/ 
 
 #emailBox{
     text-decoration: none;
@@ -124,8 +134,6 @@ input[type="email"] {
 input[type="text"]:focus ~ .underline {
     background-color: yellow;
 }
-
-
 
 /** Footer **/ 
 footer {
